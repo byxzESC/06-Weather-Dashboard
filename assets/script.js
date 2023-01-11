@@ -22,8 +22,7 @@ var getCityWeather = function (city) {
     var apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=cbcfd07d3a67829365edbdfcf51d614d';
     var apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=imperial&appid=cbcfd07d3a67829365edbdfcf51d614d';
     
-    // data needed from api call are data.name, data.weather[0].main, data.weather[0].icon, data.main.temp, data.main.humidity.
-    console.log(apiURL);
+    // console.log(apiURL);
     fetch(apiURL) 
         .then(function (response) {
             if (response.ok) {
@@ -53,17 +52,14 @@ var getCityWeather = function (city) {
         });
 }
 
+    // data needed from api call are data.name, data.weather[0].main, data.weather[0].icon, data.main.temp, data.main.humidity.
+var renderWeather = function (data, city) {
+    // 
+}
 
+var renderForecast = function (data, city) {
 
-
-
-
-
-
-
-
-
-
+}
 
 // listen to user input
 searchInput.addEventListener('submit', function(event) {
