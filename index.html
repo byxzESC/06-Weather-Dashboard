@@ -13,18 +13,22 @@
         <h1 >Weather DashBoard</h1>
     </header>
 
-    <main class="main container">
-        <div id="col-3 col-lg-3 side-bar">
+    <div class="main container d-flex">
+        <aside id="side-bar" class="w-10">
             <form id="side-bar-search">
-                <h3>Search for a City</h3>
-                <input id="city-input" type="text" placeholder="San Diego">
-                <button id="submit-button" type="submit">Search</button>
+                <h3 class="my-3">Search for a City</h3>
+                <input id="city-input" class='w-100 py-2 my-1' type="text" placeholder="Enter city name">
+                <button id="submit-button" class='btn btn-primary w-100 py-2 my-1' type="submit">Search</button>
             </form>
             <div class="search-history"></div>
+        </aside>
+        <div>
+            <div id="current-weather"></div>
+            <h3 id="forecast-title">5-Day ForeCast: </h3>
+            <main id="forecast-weather" class="ml-4 d-flex "></main>
         </div>
-
-        <div id="weather-search-result" class="col-9 col-lg-9">placeholder</div>
-    </main>
+        
+    </div>
 
 </body>
 

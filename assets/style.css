@@ -31,8 +31,26 @@ h6 {
     line-height: 1.25;
 }
 
+li {
+    list-style-type: none;
+}
+
+#forecast-weather h4{
+    color: var(--primary);
+} 
+
+#forecast-title {
+    display: none;
+}
+
+.forecast-box {
+    background-color: var(--dark);
+    color: var(--primary);
+    padding: 1rem;
+}
+
+
 .header {
-    height: 3vw;
     background-color: var(--secondary);
     text-align: center;
 }
@@ -42,9 +60,9 @@ h6 {
 }
 
 .main {
-    height: 100%;
+    margin-top: 3rem;
 }
 
 #side-bar {
-    wide: 30%;
+    margin-right: 3rem;
 }
