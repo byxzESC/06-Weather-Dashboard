@@ -5,7 +5,8 @@
     This simple Weather Dashboard allows user to view weather and forecasts of searched city.
     It is using the Openweather API to do so.
     
-    It dynamically updated the HTML to show searched history, and could be use to search for that city's weather again. 
+    It dynamically updated the HTML to show searched history, and 
+    could be use to search for that city's weather again. 
 
 
 Github Repo: https://github.com/byxzESC/06-Weather-Dashboard
