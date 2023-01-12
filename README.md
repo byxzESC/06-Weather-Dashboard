@@ -2,17 +2,18 @@
 
 ## Description 
 
-    This simple calender application allows user to save their schedule for each hour of the day. 
+    This simple Weather Dashboard allows user to view weather and forecasts of searched city.
+    It is using the Openweather API to do so.
     
     It dynamically updated the HTML to show searched history, and could be use to search for that city's weather again. 
 
 
-Github Repo: https://github.com/byxzESC/05-Work-Day-Scheduler
+Github Repo: https://github.com/byxzESC/06-Weather-Dashboard
 
-Deployed Page: https://byxzesc.github.io/05-Work-Day-Scheduler/
+Deployed Page: https://byxzesc.github.io/06-Weather-Dashboard/
 
-> Schedules are being stored in your local Storage
-![example](./assets/images/sample.JPG)
+> Example of usage
+![example](./assets/images/example.JPG)
 
 ## Table of Contents 
 
@@ -28,19 +29,12 @@ Deployed Page: https://byxzesc.github.io/05-Work-Day-Scheduler/
 
 ## Usage 
 
-Step 1. Type in schedule in the text area 
+Step 1. Type in what city to search for
 
-Step 2. click the blue save button on the right
+Step 2. click the blue save button on the left side
 
-Step 3. The description for the schedule will be different color according to the current time. Gray color indicate the time has already pass, red color indicate its the present, and green is future.
+Step 3. It will display the current weather and also 5 days of forecast for the city being searched.
 
-> Date and time provided by [Day.js](https://day.js.org/en/)
-
-![current Time](./assets/images/time_sample.JPG)
-
-> Could be test it by changing the value of currentHour
-
-![testing](./assets/images/currentHour.JPG)
 
 ## Credits
 
@@ -61,9 +55,11 @@ N/A
 
 ## Features
 
-N/A 
+[OpenWeather.org](https://openweathermap.org/)
 
 ## Tests
 
 N/A
+
+
 No written test yet.
